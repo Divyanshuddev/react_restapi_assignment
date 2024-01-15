@@ -1,0 +1,57 @@
+.profile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+    padding: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    h1{
+        font-size: 20px;
+    }
+    .card_item{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    box-shadow: 1px 1px 10px white;
+}
+
+form{
+    background-color: white;
+    padding: 20px;
+    label{
+        color: black;
+        font-size: 30px;
+        
+    }
+    input{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+        background-color: gray;
+        color: black;
+    }
+    p{
+        color: red;
+    }
+    border-radius: 20px;
+}
+
+.component{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
